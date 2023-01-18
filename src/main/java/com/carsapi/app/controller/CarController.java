@@ -25,7 +25,7 @@ public class CarController {
   }
   
   @PostMapping
-  public void create(@RequestBody CarsDTO req){
+  public String create(@RequestBody CarsDTO req){
     System.out.println("Modelo: " + req.modelo());
     System.out.println("Valor: " + req.valor());
 
