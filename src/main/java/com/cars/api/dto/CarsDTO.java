@@ -1,4 +1,4 @@
-package com.carsapi.app.dto;
+package com.cars.api.dto;
 
 import java.text.DecimalFormat;
 

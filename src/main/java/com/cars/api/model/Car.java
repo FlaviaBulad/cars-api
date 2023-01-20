@@ -1,6 +1,6 @@
-package com.carsapi.app.model;
+package com.cars.api.model;
 
-import com.carsapi.app.dto.CarsDTO;
+import com.cars.api.dto.CarsDTO;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
