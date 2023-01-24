@@ -28,18 +28,18 @@ public class Car {
   @Column(length = 50, nullable = false)
   private String dataFabricacao;
 
-  @Column(nullable = false)
+  @Column(length = 50, nullable = false)
   private Double valor;
 
-  @Column(nullable = false)
+  @Column(length = 50, nullable = false)
   private Integer anoModelo;
 
-  public Car(CarsDTO dto) {
-    this.modelo = dto.modelo();
-    this.fabricante = dto.fabricante();
-    this.dataFabricacao = dto.dataFabricacao();
-    this.valor = dto.valor();
-    this.anoModelo = dto.anoModelo();
+  public Car(CarsDTO car) {
+    this.modelo = car.modelo();
+    this.fabricante = car.fabricante();
+    this.dataFabricacao = car.dataFabricacao();
+    this.valor = car.valor();
+    this.anoModelo = car.anoModelo();
 
   }
 }
